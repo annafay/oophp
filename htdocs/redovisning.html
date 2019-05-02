@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Redovisning av kursmoment i kursen PA1451 Databasteknologier för webben</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="lib/kmommeny.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <header>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>Redovisning av kursmoment i kursen <i>PA1451 Databasteknologier för webben</i></h1> 
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark navbar-custom justify-content-center">
+      <a class="navbar-brand" href="#">Databasteknologier</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="me.html">Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="redovisning.html">Redovisning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="om.html">Om</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+    </header>  
+    
+<div class="container">
+	<div id="header" class="text-center px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+        <h1 class="display-4">Redovisning</h1>
+        <p class="lead">Redovisning av kursmoment i kursen <i>PA1451 Databasteknologier för webben</i></p>
+    </div>
+	<div id="content" class="row">
+		<div id="primarycontainer" class="col">
+			<div id="primarycontent" class="p-3">
+				<div class="post">
+					<h3>
+						Kmom01
+					</h3>
+					<div class="contentarea">
+						<p>
+                            <h5>Berätta kort om den utvecklingsmiljö du sitter i och vilka databaser/klienter du installerat och vilka versioner de har.</h5>
+                            Jag använder Xampp version 7.2.8 och i och med det MariaDB version 10.1.34 OCH MySql version 8.0.13. Till detta har jag installerat MySQL Workbrench 8.0 men har även tillgång till phpMyAdmin version 4.8.4.<br><br>
+                            <h5>Hur känns det att komma igång med databaser, klienter och SQL?</h5>
+                            MySQL Workbench var nytt helt nytt för mig. Tidigare har jag enbart använt mig av phpMyAdmin. Jag kör som sagt både mySql och MariaDB, den första för att kunna följa instruktionerna i kursen och använda cygwin etc, den andra för att den är kompatibel med min Xammp. 
+                            Jag har inte lyckats få allt att fungera ihop så det blev dubbel uppsättning istället.<br><br>
+                            <h5>Har du jobbat med databaser eller liknande tidigare?</h5>
+                            Ja. Jag har tidigare gått kursen <i>DD1334  Databasteknik</i> på KTH, men den kursen är mer teoretisk och fokuserar mycket på teori och mindre på språket SQL. 
+                            Som exempel så tar man upp hur man optimerar databaser, något jag inte ser att denna kurs går igenom. Eller gör den det?<br><br>
+                            <h5>Hur gick det att jobba med SQL i guiden?</h5>
+                            Var tvungen att installer a MySQl separat då jag inte fick det att fungera med den existerande Xampp-installationen. Längre fram kommer jag att försöka få en mindre och mer sammansatt platform att jobba från, för som det är nu blir det för många trådar att hålla reda på.<br><br>
+                            Guiden var okej. Det gick hyfsat snabbt att ta sig igenom den. Det jag fick problem med var snarast saker som hade med utveklingsmiljön att göra. Och så klart att det tog ett tag att komma på att man skulle skriva 'AND NOT x = y' och inte 'OR x != y' som jag tyckte var den logiska lösningen.<br><br>
+                            <h5>Jämför SQL med andra sätt att programmera.</h5>
+                            Upplever det som inte helt lika smidigt som mer traditionella språk. Lite fyrkantigare på något sätt. Att använda versaler gör dock att man snabbt hittar i texten även om man inte har en färgkoordinerad textredigerare, å andra sidan känns det lite som att någon skriker åt en. <br><br>
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<h3>
+						Kmom02
+					</h3>
+					<div class="contentarea">
+						<p>
+                            <h5>Du har nu använt både UNION och JOIN för att slå samman tabeller i SQL, vilken är din uppfattning om databaser och SQL så här långt?</h5>
+                            I den här kmom:en kändes SQL-delen lättare än den förra. Överlag så är SQL något jag gillar, det är tydligt och rakt. Jag föredrar att man delar upp data i tupler och attribut och skapar relationer, framför att ha all data samlad i klump så att säga.<br><br>
+                            Jag vill ha saker uppdelat så att jag sen kan klumpa ihop själv i den ordning som passar för stunden. Jag skulle eexempelvis gärna lägga upp redovisningen i en databas även om det bara skulle leda till två kolumner.<br><br>Beträffande just UNION och JOIN så är det inte några nya kommandon för mig, jag har som jag påpekat tidigare använt SQL förut.<br><br>
+                            <h5>Är detta den första bekantskap med JavaScript på serversidan och Node.js, hur känns det och vilken uppfattning, eller förutfattade meningar, har du om detta?</h5>
+                            Ja. Jag har varit nyfiken på Node och hur man använder javascript på server ett tag nu, så jag är glad att det ingår i den här kursen. Jag tror fortfarande att jag har kvar mina förutfattade meningar om Node och att det är lite obegripligt, men förhoppningsvis kommer den här kursen att lära mig tillräckligt för att jag skall kunna känna mig trygg och använda det flitigt i framtiden.<br><br>
+                            Men, jag har fortfarande lite svårt att få grep om Node och dess användningsområde. Mycket på grund av att när vänner (kodare) pratar om Node så får de det att låta så komplicerat. <br><br> 
+                            <h5>Hur kändes konceptet med async och await och asynkron programmering?</h5>
+                            Förvirrande. Jag känner inte alls att jag har fått kläm på det helt än. Men det beror nog delvis på att hela konceptet med att koppla upp sig mot databasen med javascript och Node är helt nytt för mig.<br><br>
+                            Jag har för avsikt att gå igenom kapitlet "JavaScript och Node.js med async och await" igen om någon vecka eller så när hjärnan har hunnit ikapp. <br><br>
+                            <h5>Hur gick det att koppla ihop JavaScript, Node.js med SQL och databasen?</h5>
+                            Instruktionerna var bra varför det gick väldigt smidigt. Men som jag påpekat tidiagre så är det nytt och jag kommer att behöva mer träning för att inte gå tillbaka till instruktionerna om och igen för varje moment.<br><br>
+                            Sen missade jag kommentaren om hur man formaterar datum vilket ledde till att jag skapade en egen funktion för det. Men jag hade inte hjärta att byta ut den när jag väl såg kommentaren. Det är svårt att "döda sina älskningar" och det tog sin lilla tid att sätta ihop den funktionen<br><br>
+                            <h5>Vilken är din TIL för detta kmom?</h5>
+                            Node.js har gjort att en helt ny värld har öppnat sig för mig. Eller det känns så nu iaf.<br><br>
+                            Sen upptäckte jag att eslint inte är anpsassad för jQuery, utan protesterar högtljutt över det lilla script jag gjort för att snyggt formatera en meny för redovisningen. Jag hoppas att det inte betyder att jag måste ta bort det scriptet för jag gillar det.
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<h3>
+						Kmom03
+					</h3>
+					<div class="contentarea">
+						<p>
+							Här är redovisningstexten
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<h3>
+						Kmom04
+					</h3>
+					<div class="contentarea">
+						<p>
+                            Här är redovisningstexten
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<h3>
+						Kmom05
+					</h3>
+					<div class="contentarea">
+						<p>
+							Här är redovisningstexten
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<h3>
+						Kmom06
+					</h3>
+					<div class="contentarea">
+						<p>
+							Här är redovisningstexten
+						</p>
+					</div>
+				</div>
+				<div class="post">
+					<h3>
+						Kmom07-10
+					</h3>
+					<div class="contentarea">
+						<p>
+							Här är redovisningstexten
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="secondarycontent" class="col-lg-4 p-3 bg-light">
+			<div id="kmommeny">
+				<h2>redovisning</h2>
+				<div class="contentarea">
+					
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer-custom jumbotron text-center" style="margin-bottom:0">
+  <p>Copyright © 2019 Anna Sandberg</p>
+</div>
+</body>
+</html>
