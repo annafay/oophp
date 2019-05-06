@@ -1,4 +1,8 @@
 <?php
+/**
+ * @author Anna Sandberg <a.name@example.com>
+ * @link oophp/me/redovisa/src/Guess/Guess.php
+ */
 
 namespace Fay\Guess;
 
@@ -33,19 +37,31 @@ class Guess
         $this->tries = $tries;
     }
     
-    // Function to randomize secret number to initiate anew game.
+    /**
+     * Function to randomize secret number to initiate a new game.
+     *
+     * @return void
+     */
     public function random() : void
     {
         $this->number = rand(1, 100);
     }
  
-    // Function to get number of tries left.
+    /**
+     * Function to get number of tries left.
+     *
+     * @return int $tries left
+     */
     public function tries() : int
     {
         return $this->tries;
     }
  
-    // Function to get the secret number.
+    /**
+     * Function to get the number. 
+     *
+     * @return int $number the secret number
+     */
     public function number() : int
     {
         return $this->number;
