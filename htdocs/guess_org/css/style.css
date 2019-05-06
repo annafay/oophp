@@ -1,17 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 50px;
-    padding: 0px;
-    font-size: 100%;
+    font-size: 1em;
     line-height: 1.5;
 }
 
-h1, 
-h2, 
-h3, 
+h1,
+h2,
+h3,
 h4 {
-    margin: 1em 0 .5em;
-    line-height: 1.25;
+    margin: 1em 0 0.5em;
+    line-height: 1.25em;
 }
 
 h1 {
@@ -26,47 +25,47 @@ h3 {
     font-size: 1.2em;
 }
 
-ul, 
+ul,
 ol {
     margin: 1em 0;
     padding-left: 40px;
 }
 
-p, 
+p,
 figure {
     margin: 1em 0;
 }
 
-a 
+a,
 img {
     border: none;
 }
 
-sup, 
+sup,
 sub {
     line-height: 0;
 }
 
-input[type=text], 
+input[type=text],
 select {
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
